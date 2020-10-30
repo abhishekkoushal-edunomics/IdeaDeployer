@@ -21,15 +21,15 @@ export default function FixedContainer() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav font-weight-bold ml-lg-auto">
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/"><span className="text-uppercase text-dark nav-link">Features</span></NavLink>
+                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer"><span className="text-uppercase text-dark nav-link">Features</span></NavLink>
                       {/* <a className="nav-link text-uppercase text-dark" href="#">Features</a> */}
                       </li>
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/price"><span className="text-uppercase text-dark nav-link">Pricing</span></NavLink>
+                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer/price"><span className="text-uppercase text-dark nav-link">Pricing</span></NavLink>
                       {/* <a className="nav-link text-uppercase text-dark" href="#">Pricing</a> */}
                       </li>
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/dfjns"><span className="text-uppercase text-dark nav-link">login</span></NavLink>
+                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer/dfjns"><span className="text-uppercase text-dark nav-link">login</span></NavLink>
                       {/* <a className="nav-link text-uppercase text-dark" href="#">LOGIN</a> */}
                       </li>
                       <li className="nav-item mx-3">

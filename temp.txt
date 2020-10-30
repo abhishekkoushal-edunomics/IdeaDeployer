@@ -1,5 +1,5 @@
 git status
-git .add
+git add .
 git commit -m "Deploy Idea Deploy"
 npm run deploy
 git push -u origin master

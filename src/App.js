@@ -9,9 +9,9 @@ function App() {
   return (
   <>
     <Switch>
-      <Route exact path='/' component={Feature} />
-      <Route exact path='/feature' component={Feature} />
-      <Route exact path='/price' component={Price} />
+      <Route exact path='/IdeaDeployer' component={Feature} />
+      <Route exact path='/IdeaDeployer/feature' component={Feature} />
+      <Route exact path='/IdeaDeployer/price' component={Price} />
       <Route component={Error} />
     </Switch>
       <Feature />
