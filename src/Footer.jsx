@@ -45,7 +45,7 @@ function SocialMediaBar(){
 export default function Section() {
   return (
     <>
-    <Container style={{backgroundColor:'rgb(218, 218, 224)'}} fixed >
+    <Container style={{backgroundColor:'rgb(218, 218, 224)',overflowX:'hidden'}} fixed >
         <Container maxWidth ="md" fixed >
         <div className="py-5 mx-0">
             <div className="text-center row py-5 mx-0 px-0">
