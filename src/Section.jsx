@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useState,Component} from 'react';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faBus,faCarAlt,faSubway,faPlane} from '@fortawesome/free-solid-svg-icons';
 import img_1 from './img/temp.jpeg'
+import price_table_1 from './img/Pricing-table.svg'
 function HomeSection() {
   return (
     <>
@@ -128,5 +131,252 @@ function HomeUpperSection() {
       </>
     );
 }
+class PriceSection extends Component{
+    constructor(props){
+        super(props);
+        this.state ={
+            price_col_1 : {},
+            price_col_2 : {},
+            price_col_3 : {},
+            price_col_4 : {},
+        
+        }
+    }
 
-export {HomeSection,HomeBottomSection,FeatureSection,HomeUpperSection};
+
+    PriceSectionHoverIn(price_col){
+        alert(price_col)
+        if (price_col == "1"){
+            this.state.price_col_1 = {boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'};
+        }
+        if (price_col == "2"){
+            this.state.price_col_2 = {boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'};
+        }
+        if (price_col == "3"){
+            this.state.price_col_3 = {boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'};
+        }
+        else{
+            this.state.price_col_4 = {boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'};
+        } 
+    }    
+    render(){
+        return (
+            <>
+              <Container fixed >
+                  <Container maxWidth ="md" fixed >
+                      <div className="text-center row mt-5 py-5 ">
+                          <h2 className="font-weight-bolder"> The Most affordable pricing to create a continuous innovation culture for all shape and sizes.</h2>
+                          <p className="my-3">No fees to get started. You don't even have to input a credit card.</p>
+                      </div>
+                      <div className="row p-3 text-center">
+                          <div style={this.state.price_col_1} className="col-3 py-5 border" >
+                              <div className="mb-5">
+                                  <FontAwesomeIcon icon ={faCarAlt} className="h1" ></FontAwesomeIcon>
+                                  <h1  style={{color:'rgb(91, 152, 199)'}}>$0.0</h1>
+                                  <p>per month</p>
+                              </div>
+                              <h5 style={{color:'rgb(91, 152, 199)'}} className="my-5">FREE</h5>
+                              <p className="h6 mb-4 pt-3">Get started amd try our idea management tool and upgrade at anytime.</p>
+                              <Button style={{color:"white",backgroundColor:'rgb(91, 152, 199)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
+                          </div>
+      
+                          <div style={this.state.price_col_2} className="col-3 py-5 border" >
+                              <div className="mb-5">
+                                  <FontAwesomeIcon icon ={faBus} className="h1" ></FontAwesomeIcon>
+                                  <h1 style={{color:'rgb(252, 179, 22)'}}>$0.0</h1>
+                                  <p>per month</p>
+                              </div>
+                              <h5 style={{color:'rgb(252, 179, 22)'}} className="mt-5">BASIC</h5>
+                                <p className="small">irst 100 users included +$2/month per additional user</p>
+                              <p className="h6 mb-3 pb-4">For individual teams and small organizations.</p>
+                              <Button style={{color:"white",backgroundColor:'rgb(252, 179, 22)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
+                          </div>
+      
+                          <div style={this.state.price_col_3} className="col-3 py-5 border">
+                              <div className="mb-5">
+                                  <FontAwesomeIcon icon ={faSubway} className="h1" ></FontAwesomeIcon>
+                                  <h1 style={{color:'rgb(238, 83, 81)'}}>$0.0</h1>
+                                  <p>per month</p>
+                              </div>
+                              <h5 style={{color:'rgb(238, 83, 81)'}} className="mt-5">FREE</h5>
+                              <p className="small">irst 100 users included +$2/month per additional user</p>
+                              <p className="h6 mb-4">Get started amd try our idea management tool and upgrade at anytime.</p>
+                              <Button style={{color:"white",backgroundColor:'rgb(238, 83, 81)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
+                          </div>
+      
+                          <div style={this.state.price_col_4} className="col-3 py-5 border">
+                              <div className="mb-5">
+                                  <FontAwesomeIcon icon ={faPlane} className="h1" ></FontAwesomeIcon>
+                                  <h1 style={{color:' rgb(100, 185, 104)'}}>$0.0</h1>
+                                  <p>per month</p>
+                              </div>
+                              <h5 style={{color:' rgb(100, 185, 104)'}} className="my-5">FREE</h5>
+                              <p className="h6 mb-2 pt-3">For large organizations with all the power, personalization and advanced controls.</p>
+                              <Button style={{color:"white",backgroundColor:'rgb(100, 185, 104)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
+                          </div>
+                      </div>
+                </Container>
+            </Container>
+            </>
+          );
+    }
+}
+function PriceTable(){
+    return (
+        <>
+           <Container fixed >
+           <Container maxWidth ="md" fixed >
+              <div>
+                  <table style={{backgroundColor:'rgb(208, 218, 208,0.4)'}} className="table table-striped table-bordered border-white">
+                      <thead>
+                          <tr>  
+                            <th></th>
+                              <th>Free</th>
+                              <th>Basic</th>
+                              <th>Business</th>
+                              <th>Enterprise</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>Features</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td>Users</td>
+                              <td> Up to 10</td>
+                              <td>Up to 100 <br/><span class="small">add more users on-demand</span></td>
+                              <td>Up to 1000 <br/><span class="small">add more users on-demand</span></td>
+                              <td>Unlimited</td>
+                          </tr>
+
+                          <tr>
+                              <td>Admins</td>
+                              <td>1</td>
+                              <td>10</td>
+                              <td>10</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+
+                          <tr>
+                              <td>Workspaces</td>
+                              <td>1</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+
+                          <tr>
+                              <td>Challenge Pipeline</td>
+                              <td>1</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+
+                          <tr>
+                              <td>Idea Pipeline</td>
+                              <td>1</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+
+                          <tr>
+                              <td>No. of Challenges</td>
+                              <td>1</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+
+                          <tr>
+                              <td>No. of Ideas</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+                          <tr>
+                              <td>Kanban Boards</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+                          <tr>
+                              <td>Storage</td>
+                              <td>Up to 10MB</td>
+                              <td>Up to 10GB</td>
+                              <td>Up to 10GB</td>
+                              <td>Unlimited</td>
+                          </tr>
+
+                          <tr>
+                              <td>Capture, Screen, Evaluate and Execute ideas</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+                          <tr>
+                              <td>Notifications</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                              <td>Unlimited</td>
+                          </tr>
+                          <tr>
+                              <td>Support</td>
+                              <td></td>
+                              <td>Live Chat & Email Support</td>
+                              <td>Live Chat & Phone Support</td>
+                              <td>Dedicated Innovation Success Manager</td>
+                          </tr>
+                          <tr>
+                              <td>Analytics</td>
+                              <td></td>
+                              <td>Basic</td>
+                              <td>Basic</td>
+                              <td>Advanced</td>
+                          </tr>
+                          <tr>
+                              <td>Full White Labeling</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td>Yes</td>
+                          </tr>
+                          <tr>
+                              <td>Singel Sign-up</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td>Yes</td>
+                          </tr>
+                          <tr>
+                              <td>Customization</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td>Yes</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+           </Container>
+           </Container>
+        </>
+    );
+}
+export {HomeSection,HomeBottomSection,FeatureSection,HomeUpperSection,PriceSection,PriceTable};
