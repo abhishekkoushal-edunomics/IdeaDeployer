@@ -48,7 +48,7 @@ function FeatureHeader() {
         <Container maxWidth ="md" className="p-5" fixed >
             <div className="row my-5">
                 <div className="col-md-6 mt-5 text-white">
-                    <h1 className="font-weight-bolder my-3">IdeaDeployer | Employee Innovation | Kanban | Incubation</h1>
+                    <h1 className="font-weight-bolder my-3">The only solution you need to</h1>
                     <p className="my-4">
                     Custom Automated Workflow | Challenge Pipeline | Idea Pipeline | Idea Delivery
                         | Innovation Delivery | Idea Ranking | Crowd Voting | Social Activity

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBus,faCarAlt,faSubway,faPlane} from '@fortawesome/free-solid-svg-icons';
 import img_1 from './img/temp.jpeg'
 import price_table_1 from './img/Pricing-table.svg'
+import img_h1 from './img/th-1.svg'
 function HomeSection() {
   return (
     <>
@@ -28,7 +29,6 @@ function FeatureSection() {
           <Container style={{boxShadow: "0 12px 10px -10px gray"}} maxWidth ="md" fixed >
               <div className="text-center row py-3 my-md-5">
                   <div className="col-md-6 mx-auto">
-                      <h4 style={{fontWeight:"400"}}>The only solution you need to</h4>
                       <h2 style={{fontWeight:"800"}} className="my-3">Achieve goal-oriented innovation excellence</h2>
                   </div>
                   <h4 style={{fontWeight:"400"}} className="mx-md-5 px-4 ">The best-integrated idea management tool with all features of ideation campaigns, gated ideation workflow, idea voting, rating, commenting and real-time collaboration, idea evaluation and expert reviews, idea execution and Kanban based implementation management and innovation dashboard, reporting & analytics.</h4>
@@ -169,7 +169,7 @@ class PriceSection extends Component{
                           <p className="my-3">No fees to get started. You don't even have to input a credit card.</p>
                       </div>
                       <div className="row p-3 text-center">
-                          <div style={this.state.price_col_1} className="col-3 py-5 border" >
+                          <div style={this.state.price_col_1} className="col-md-3 col-10 mx-auto my-3 py-5 border" >
                               <div className="mb-5">
                                   <FontAwesomeIcon icon ={faCarAlt} className="h1" ></FontAwesomeIcon>
                                   <h1  style={{color:'rgb(91, 152, 199)'}}>$0.0</h1>
@@ -180,10 +180,10 @@ class PriceSection extends Component{
                               <Button style={{color:"white",backgroundColor:'rgb(91, 152, 199)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                           </div>
       
-                          <div style={this.state.price_col_2} className="col-3 py-5 border" >
+                          <div style={this.state.price_col_2} className="col-md-3 col-10 mx-auto my-3 py-5 border" >
                               <div className="mb-5">
                                   <FontAwesomeIcon icon ={faBus} className="h1" ></FontAwesomeIcon>
-                                  <h1 style={{color:'rgb(252, 179, 22)'}}>$0.0</h1>
+                                  <h1 style={{color:'rgb(252, 179, 22)'}}>$99</h1>
                                   <p>per month</p>
                               </div>
                               <h5 style={{color:'rgb(252, 179, 22)'}} className="mt-5">BASIC</h5>
@@ -192,25 +192,24 @@ class PriceSection extends Component{
                               <Button style={{color:"white",backgroundColor:'rgb(252, 179, 22)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                           </div>
       
-                          <div style={this.state.price_col_3} className="col-3 py-5 border">
+                          <div style={this.state.price_col_3} className="col-md-3 col-10 mx-auto my-3 py-5 border">
                               <div className="mb-5">
                                   <FontAwesomeIcon icon ={faSubway} className="h1" ></FontAwesomeIcon>
-                                  <h1 style={{color:'rgb(238, 83, 81)'}}>$0.0</h1>
+                                  <h1 style={{color:'rgb(238, 83, 81)'}}>$298</h1>
                                   <p>per month</p>
                               </div>
-                              <h5 style={{color:'rgb(238, 83, 81)'}} className="mt-5">FREE</h5>
+                              <h5 style={{color:'rgb(238, 83, 81)'}} className="mt-5">BUSINESS</h5>
                               <p className="small">irst 100 users included +$2/month per additional user</p>
                               <p className="h6 mb-4">Get started amd try our idea management tool and upgrade at anytime.</p>
                               <Button style={{color:"white",backgroundColor:'rgb(238, 83, 81)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                           </div>
       
-                          <div style={this.state.price_col_4} className="col-3 py-5 border">
+                          <div style={this.state.price_col_4} className="col-md-3 col-10 mx-auto my-3 py-5 border">
                               <div className="mb-5">
                                   <FontAwesomeIcon icon ={faPlane} className="h1" ></FontAwesomeIcon>
-                                  <h1 style={{color:' rgb(100, 185, 104)'}}>$0.0</h1>
-                                  <p>per month</p>
+                                  <h5 style={{color:' rgb(100, 185, 104)'}} className="pb-3">INSTALL ON YOUR PRIVATE SERVER</h5>
                               </div>
-                              <h5 style={{color:' rgb(100, 185, 104)'}} className="my-5">FREE</h5>
+                              <h5 style={{color:' rgb(100, 185, 104)'}} className="mb-5 mt-4 pt-3">ENTERPRISE</h5>
                               <p className="h6 mb-2 pt-3">For large organizations with all the power, personalization and advanced controls.</p>
                               <Button style={{color:"white",backgroundColor:'rgb(100, 185, 104)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                           </div>
@@ -226,11 +225,13 @@ function PriceTable(){
         <>
            <Container fixed >
            <Container maxWidth ="md" fixed >
-              <div class="my-5">
-                  <table style={{backgroundColor:'rgb(208, 218, 208,0.4)'}} className="table table-striped table-bordered border-white">
+              <div style={{overflowX:'scroll'}} class="my-5 row">
+                  <table style={{backgroundColor:'rgb(208, 218, 208,0.4)'}} className="table table-striped table-bordered border-white col-12">
                       <thead>
                           <tr>  
-                            <th></th>
+                            <th>
+
+                            </th>
                               <th>Free</th>
                               <th>Basic</th>
                               <th>Business</th>
