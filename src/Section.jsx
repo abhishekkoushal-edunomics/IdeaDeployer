@@ -226,7 +226,7 @@ function PriceTable(){
         <>
            <Container fixed >
            <Container maxWidth ="md" fixed >
-              <div>
+              <div class="my-5">
                   <table style={{backgroundColor:'rgb(208, 218, 208,0.4)'}} className="table table-striped table-bordered border-white">
                       <thead>
                           <tr>  
