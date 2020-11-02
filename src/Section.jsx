@@ -148,47 +148,47 @@ function HomeUpperSection() {
     );
 }
 function PriceSection(){
-    var [price_col_1,setPriceCol1] = useState({})
-    var [price_col_2,setPriceCol2] = useState({})
-    var [price_col_3,setPriceCol3] = useState({})
-    var [price_col_4,setPriceCol4] = useState({})
+    var [price_col_1,setPriceCol1] = useState({maxHeight:'590px',maxWidth:"250px"})
+    var [price_col_2,setPriceCol2] = useState({maxHeight:'590px',maxWidth:"250px"})
+    var [price_col_3,setPriceCol3] = useState({maxHeight:'590px',maxWidth:"250px"})
+    var [price_col_4,setPriceCol4] = useState({maxHeight:'590px',maxWidth:"250px"})
     var [price_col1_color,setColor1] = useState('rgb(91, 152, 199)')
     var [price_col2_color,setColor2] = useState('rgb(252, 179, 22)')
     var [price_col3_color,setColor3] = useState('rgb(238, 83, 81)')
     var [price_col4_color,setColor4] = useState('rgb(100, 185, 104)')
     function PriceSectionHoverIn(price_col){
         if (price_col == "1"){
-            setPriceCol1({backgroundImage:'url('+price_table_col_1+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'});
+            setPriceCol1({backgroundImage:'url('+price_table_col_1+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px',maxHeight:'590px',maxWidth:"250px"});
             setColor1('white');
         }
         if (price_col == "2"){
-            setPriceCol2({backgroundImage:'url('+price_table_col_2+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'});
+            setPriceCol2({backgroundImage:'url('+price_table_col_2+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px',maxHeight:'590px',maxWidth:"250px"});
             setColor2('white')
         }
         if (price_col == "3"){
-            setPriceCol3({backgroundImage:'url('+price_table_col_3+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'});
+            setPriceCol3({backgroundImage:'url('+price_table_col_3+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px',maxHeight:'590px',maxWidth:"250px"});
             setColor3('white')
         }
         if(price_col == "4" ){
-            setPriceCol4({backgroundImage:'url('+price_table_col_4+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px'});
+            setPriceCol4({backgroundImage:'url('+price_table_col_4+')',backgroundRepeat:'no-repeat',borderRadius:'20px',border:'none',boxShadow:"12px 0 15px -4px rgb(137, 141, 137), -12px 0 8px -4px rgb(137, 141, 137)",marginTop:'-30px',marginRight:'-30px',maxHeight:'590px',maxWidth:"250px"});
             setColor4('white')
         } 
     }    
     function PriceSectionHoverOut(price_col){
         if (price_col == "1"){
-            setPriceCol1({});
+            setPriceCol1({maxHeight:'590px',maxWidth:"250px"});
             setColor1('rgb(91, 152, 199)')
         }
         if (price_col == "2"){
-            setPriceCol2({});
+            setPriceCol2({maxHeight:'590px',maxWidth:"250px"});
             setColor2('rgb(252, 179, 22)')
         }
         if (price_col == "3"){
-            setPriceCol3({});
+            setPriceCol3({maxHeight:'590px',maxWidth:"250px"});
             setColor3('rgb(238, 83, 81)')
         }
         if(price_col == "4" ){
-            setPriceCol4({});
+            setPriceCol4({maxHeight:'590px',maxWidth:"250px"});
             setColor4('rgb(100, 185, 104)')
         } 
     }    
@@ -209,7 +209,7 @@ function PriceSection(){
                                 <h1  style={{color:price_col1_color}}>$0.0</h1>
                                 <p>per month</p>
                             </div>
-                            <h5 style={{color:'rgb(91, 152, 199)'}} className="my-5 pt-4">FREE</h5>
+                            <h5 style={{color:'rgb(91, 152, 199)'}} className="my-5 pt-md-4 pt-5">FREE</h5>
                             <p className="h6 mb-4 pt-3">Get started amd try our idea management tool and upgrade at anytime.</p>
                             <Button style={{color:"white",backgroundColor:'rgb(91, 152, 199)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                         </div>
@@ -220,7 +220,7 @@ function PriceSection(){
                                 <h1 style={{color:price_col2_color}}>$99</h1>
                                 <p>per month</p>
                             </div>
-                            <h5 style={{color:'rgb(252, 179, 22)'}} className="mt-5 pt-4">BASIC</h5>
+                            <h5 style={{color:'rgb(252, 179, 22)'}} className="mt-5 pt-md-4 pt-5">BASIC</h5>
                             <p className="small">irst 100 users included +$2/month per additional user</p>
                             <p className="h6 mb-3 pb-4">For individual teams and small organizations.</p>
                             <Button style={{color:"white",backgroundColor:'rgb(252, 179, 22)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
@@ -232,7 +232,7 @@ function PriceSection(){
                                 <h1 style={{color:price_col3_color}}>$298</h1>
                                 <p>per month</p>
                             </div>
-                            <h5 style={{color:'rgb(238, 83, 81)'}} className="mt-5 pt-4">BUSINESS</h5>
+                            <h5 style={{color:'rgb(238, 83, 81)'}} className="mt-5 pt-md-4 pt-5">BUSINESS</h5>
                             <p className="small">irst 100 users included +$2/month per additional user</p>
                             <p className="h6 mb-4">Get started amd try our idea management tool and upgrade at anytime.</p>
                             <Button style={{color:"white",backgroundColor:'rgb(238, 83, 81)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
@@ -243,7 +243,7 @@ function PriceSection(){
                                 <FontAwesomeIcon icon ={faPlane} className="h1" ></FontAwesomeIcon>
                                 <h5 style={{color:price_col4_color}} className="pb-3">INSTALL ON YOUR PRIVATE SERVER</h5>
                             </div>
-                            <h5 style={{color:' rgb(100, 185, 104)'}} className="mb-5 mt-4 pt-4">ENTERPRISE</h5>
+                            <h5 style={{color:' rgb(100, 185, 104)'}} className="mb-5 mt-4 pt-md-4 pt-5">ENTERPRISE</h5>
                             <p className="h6 mb-2 pt-3">For large organizations with all the power, personalization and advanced controls.</p>
                             <Button style={{color:"white",backgroundColor:'rgb(100, 185, 104)'}} className="text-uppercase font-weight-bold mt-5 " variant="contained" size="large" color="#800000">SELECT PLAN</Button>
                         </div>
