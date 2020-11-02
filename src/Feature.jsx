@@ -10,11 +10,11 @@ export default function Feature() {
   return (
     <>  
         <Helmet>
-          <title>IdeaDeployer | Employee Innovation | Kanban | Incubation </title>
+          <title>IdeaDeployer | Employee Innovation | Kanban | Incubation</title>
         </Helmet>
         <NavBar></NavBar>
         <FeatureHeader></FeatureHeader>
-        <FeatureSection></FeatureSection>
+        {/* <FeatureSection></FeatureSection> */}
         <Article></Article>
         <Footer></Footer>
     </>

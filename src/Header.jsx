@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import feature_header_img from './img/Features-slider-image.png';
 import home_header_img from './img/Homepage-slider-image.png';
-import price_header_img from './img/Homepage-slider-image.png';
+import price_header_img from './img/Price-slider-image.jpeg';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -22,7 +22,7 @@ function HomeHeader() {
   return (
     <>
       <Container style={{height:'100vh',position:'absolute'}} fluid >
-        <Container maxWidth ="md" className="p-5" fixed >
+        <Container maxWidth ="md" className="py-5" fixed >
             <div className="row my-5 py-4">
                 <div className="col-md-7 col-12 mt-5 text-white">
                     <h1 className="font-weight-bolder my-3 text-uppercase">Create continuous Innovation culture</h1>
@@ -45,15 +45,16 @@ function FeatureHeader() {
   return (
     <>
       <Container style={{height:'100vh',position:'absolute'}} fluid >
-        <Container maxWidth ="md" className="p-5" fixed >
+        <Container maxWidth ="md" className="py-5" fixed >
             <div className="row my-5">
                 <div className="col-md-6 mt-5 text-white">
-                    <h1 className="font-weight-bolder my-3">The only solution you need to</h1>
+                    <h1 className="font-weight-bolder my-3">Achieve goal-oriented innovation excellence</h1>
                     <p className="my-4">
-                    Custom Automated Workflow | Challenge Pipeline | Idea Pipeline | Idea Delivery
-                        | Innovation Delivery | Idea Ranking | Crowd Voting | Social Activity
+                    The best-integrated idea management tool with all features of ideation campaigns, gated ideation workflow, idea voting, rating, commenting and real-time collaboration, idea evaluation and expert reviews, idea execution and Kanban based implementation management and innovation dashboard, reporting & analytics.
                     </p>
-                    <Button className="font-weight-bold px-5" style={{color:'white',backgroundColor:'rgb(255, 125, 175)'}} variant="contained" size="large" >TRY FOR FREE</Button>
+
+                    <Button style={{color:"white",backgroundColor:'rgb(255, 125, 175)'}} className="nav-link text-uppercase font-weight-bold px-4 my-2" variant="contained" size="large" color="#800000">GET STARTED NOW FOR FREE</Button>
+                    <Button style={{color:"white",backgroundColor:'rgb(255, 125, 175)'}} className="nav-link text-uppercase font-weight-bold px-4 my-2" variant="contained" size="large" color="#800000">CHECK PRICING</Button>
                 </div>
             </div>
         </Container>
@@ -68,10 +69,10 @@ function PriceHeader() {
   return (
     <>
       <Container style={{height:'100vh',position:'absolute'}} fluid >
-        <Container maxWidth ="md" className="p-5" fixed >
+        <Container maxWidth ="md" className="py-5" fixed >
             <div className="row my-5 py-4">
-                <div className="col-md-7 col-12 mt-5 text-white">
-                    <h1 className="font-weight-bolder my-3 text-uppercase">Idea IdeaDeployer | Affordable and Simple Pricing for everyone</h1>
+                <div className="col-md-5 col-12 mt-5 text-white">
+                    <h1 className="font-weight-bolder my-3 text-uppercase">IdeaDeployer | Affordable and Simple Pricing for everyone</h1>
                     <p className="my-4 pr-5 small">Simple, transparent and economic innovation management software </p>
                     <Button className="font-weight-bold px-5" style={{color:'white',backgroundColor:'rgb(255, 125, 175)'}} variant="contained" size="large" >TRY FOR FREE</Button>
                 </div>
