@@ -14,7 +14,7 @@ export default function Home() {
         <HomeSection></HomeSection>
         <HomeArticle></HomeArticle>
         <HomeBottomSection></HomeBottomSection>
-        {/* <AdditionalFeatures></AdditionalFeatures> */}
+        <AdditionalFeatures></AdditionalFeatures>
         <BottomAdditionalFeatures></BottomAdditionalFeatures>
         <Footer></Footer>
     </>

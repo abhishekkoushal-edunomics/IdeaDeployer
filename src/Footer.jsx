@@ -51,7 +51,7 @@ export default function Section() {
             <div className="text-center row py-5 mx-0 px-0">
                 <div className="col-md-3 col-12 text-left">
                     <h5 className="font-weight-bold mb-3">Our Address</h5>
-                    <p className="small">795 South Park, Wonderian CA94107, Australia</p>
+                    <p className="small"></p>
                 </div>
                 <div className="col-md-6 col-12">
                     <img src={logo_img} className="img-fluid mb-3" />

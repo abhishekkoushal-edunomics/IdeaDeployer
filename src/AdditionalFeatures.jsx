@@ -4,6 +4,7 @@ import img_1 from './img/Homepage-additional-features.svg';
 import bg_1 from './img/Homepage-slider-image.png';
 import Button from '@material-ui/core/Button';
 
+import addition_feature_img from './img/Home-additional-features.jpg';
 function BottomAdditionalFeatures(){
     return(
         <>
@@ -25,30 +26,14 @@ function BottomAdditionalFeatures(){
 function AdditionalFeatures(){
     return(
     <>
-      <Container style={{height:'100vh',position:'absolute'}} fluid >
+      <Container fluid >
         <Container maxWidth ="md" className="p-5" fixed >
-            <div className="row small border">
-                <div className="row col-7 mt-5 text-dark text-center border border-danger">
-                    <div className="col-4 mx-auto">
-                        <div className="h6">Enrich Campagin</div>
-                        <div className="">Enrich Campagin by adding attachmentsm, URL or videos.</div>
-                    </div>
-                    <div className="col-4 mx-auto">sdfjdslk</div>
-                    <div className="col-4 mx-auto">dskifjsd</div>
-                </div>
-                <div className="row col-4 ml-5 border border-success">
-m
-                </div>
+            <div className="row text-center">
+                <h1 className="col-12 font-weight-bolder">Additional Features</h1>
+                <img src={addition_feature_img} className="col-12 img-fluid"/>
             </div>
         </Container>
       </Container>
-      <Container style={{height:'100vh',position:"relative",zIndex:'-1',backgroundSize:"cover"}} fluid >
-        <Container maxWidth ="md" className="p-5" fixed >
-        <div  className="row ">
-            <div className="col-12 mx-0 px-0"><img src={img_1} className="img-fluid d-none d-md-block" /></div>
-        </div>
-        </Container>
-        </Container>
     </>
 
     );

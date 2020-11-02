@@ -1,0 +1,20 @@
+<svg width="280" height="70" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:#e6e7e8;}.cls-2{fill:#f1f2f2;}.cls-3{fill:#bcbec0;}.cls-4{fill:#579fd6;}.cls-5{fill:#fcb316;}.cls-6{fill:#ee5351;}.cls-7{fill:#66ba6a;}</style>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="72" width="282" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" transform="rotate(0.13039781153202057 140.1120300293043,53.68081665039806) " id="svg_10" d="m15.92129,37.69834l248.3815,0a16.13733,26.90999 0 0 1 16.13733,26.90999l0,5.05496a0,0 0 0 1 0,0l-280.65616,0a0,0 0 0 1 0,0l0,-5.05496a16.13733,26.90999 0 0 1 16.13733,-26.90999z" class="cls-3"/>
+  <rect id="svg_44" height="193.96" width="611.36" y="294.12" x="2988.36" class="cls-1"/>
+  <path id="svg_45" d="m3053.2,0l481.68,0a64.84,64.84 0 0 1 64.84,64.84l0,222.63a0,0 0 0 1 0,0l-611.36,0a0,0 0 0 1 0,0l0,-222.63a64.84,64.84 0 0 1 64.84,-64.84z" class="cls-7"/>
+  <rect id="svg_46" height="193.96" width="611.36" y="494.74" x="2988.36" class="cls-2"/>
+  <rect id="svg_47" height="193.96" width="611.36" y="695.36" x="2988.36" class="cls-1"/>
+  <rect id="svg_48" height="193.96" width="611.36" y="895.98" x="2988.36" class="cls-2"/>
+  <rect id="svg_49" height="193.96" width="611.36" y="1096.61" x="2988.36" class="cls-1"/>
+  <path id="svg_54" d="m3141.74,194l304.61,0a64.84,64.84 0 0 1 64.84,64.84l0,28.66a0,0 0 0 1 0,0l-434.29,0a0,0 0 0 1 0,0l0,-28.7a64.84,64.84 0 0 1 64.84,-64.8z" class="cls-1"/>
+ </g>
+</svg>
