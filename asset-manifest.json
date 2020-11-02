@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IdeaDeployer/static/css/main.11da5858.chunk.css",
-    "main.js": "/IdeaDeployer/static/js/main.720ce198.chunk.js",
-    "main.js.map": "/IdeaDeployer/static/js/main.720ce198.chunk.js.map",
+    "main.js": "/IdeaDeployer/static/js/main.c0ee057c.chunk.js",
+    "main.js.map": "/IdeaDeployer/static/js/main.c0ee057c.chunk.js.map",
     "runtime-main.js": "/IdeaDeployer/static/js/runtime-main.05ccdec9.js",
     "runtime-main.js.map": "/IdeaDeployer/static/js/runtime-main.05ccdec9.js.map",
     "static/js/2.11b401d1.chunk.js": "/IdeaDeployer/static/js/2.11b401d1.chunk.js",
@@ -34,6 +34,7 @@
     "static/media/Home-section-icon-3.53ab94ee.jpg": "/IdeaDeployer/static/media/Home-section-icon-3.53ab94ee.jpg",
     "static/media/Homepage-additional-features.139a1995.svg": "/IdeaDeployer/static/media/Homepage-additional-features.139a1995.svg",
     "static/media/Homepage-slider-image.740ae707.png": "/IdeaDeployer/static/media/Homepage-slider-image.740ae707.png",
+    "static/media/Price-slider-image.fbd8f092.jpeg": "/IdeaDeployer/static/media/Price-slider-image.fbd8f092.jpeg",
     "static/media/Price-table-col-1.1152b5e4.svg": "/IdeaDeployer/static/media/Price-table-col-1.1152b5e4.svg",
     "static/media/Price-table-col-2.e35adc7a.svg": "/IdeaDeployer/static/media/Price-table-col-2.e35adc7a.svg",
     "static/media/Price-table-col-3.0132ed2d.svg": "/IdeaDeployer/static/media/Price-table-col-3.0132ed2d.svg",
@@ -51,6 +52,6 @@
     "static/js/runtime-main.05ccdec9.js",
     "static/js/2.11b401d1.chunk.js",
     "static/css/main.11da5858.chunk.css",
-    "static/js/main.720ce198.chunk.js"
+    "static/js/main.c0ee057c.chunk.js"
   ]
 }
