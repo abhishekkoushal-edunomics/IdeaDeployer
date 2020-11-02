@@ -1,0 +1,17 @@
+<svg width="250" height="427" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style>
+            .cls-4 {
+                fill: rgb(238, 83, 81);
+            }
+		</style>
+	</defs>
+	<g>
+		<title>background</title>
+		<rect fill="none" id="canvas_background" height="429" width="252" y="-1" x="-1" />
+	</g>
+	<g>
+		<title>Layer 1</title>
+		<path stroke="null" id="svg_15" d="m259.12001,1.7837l0,186.57989c-40.17906,17.27418 -134,86.53987 -134,27.01907c0,-40.25634 -93.82094,-9.74489 -134,-27.01907l0,-186.57989a10.11281,9.06894 0 0 1 10.46875,-8.73097l247.06251,0a10.11281,9.06894 0 0 1 10.46875,8.73097z" class="cls-4" />
+	</g>
+</svg>
