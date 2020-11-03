@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import feature_header_img from './img/Features-slider-image.png';
 import home_header_img from './img/Homepage-slider-image.png';
-import price_header_img from './img/Price-slider-image.jpeg';
+import price_header_img from './img/Price-slider-image.png';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -69,7 +69,7 @@ function PriceHeader() {
   return (
     <>
       <Container style={{height:'100vh',position:'absolute'}} fluid >
-        <Container maxWidth ="md" className="py-5" fixed >
+        <Container maxWidth ="md" className="py-4" fixed >
             <div className="row my-5 py-4">
                 <div className="col-md-5 col-12 mt-5 text-white">
                     <h1 className="font-weight-bolder my-3 text-uppercase">IdeaDeployer | Affordable and Simple Pricing for everyone</h1>

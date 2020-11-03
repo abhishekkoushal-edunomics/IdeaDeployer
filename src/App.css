@@ -30,6 +30,13 @@ body{
   color:yellow;
   border-bottom:20px;
 }
-  .cls-7 {
-  fill: #66ba6a;
+@media (max-width: 768px) {
+  #priceTable{
+    overflow-x: scroll;
   }
+}
+@media (min-width: 769px) {
+  #priceTable{
+    overflow-x: hidden;
+  }
+}

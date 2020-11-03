@@ -259,7 +259,7 @@ function PriceTable(){
         <>
            <Container fixed >
            <Container maxWidth ="md" fixed >
-              <div  style={{overflowX:'scroll'}} class="my-5 row pr-0 text-center">
+              <div id="priceTable" class="my-5 row pr-0 text-center">
                   <table style={{minWidth:'880px'}} className="row col-12 pr-0 table table-striped table-bordered border-white">
                       <thead className="row col-12 pr-0">
                           <tr style={{backgroundColor:table_color}} className="row col-12 pr-0">  

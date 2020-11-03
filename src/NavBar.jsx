@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
-import logo_img from './img/logo.jpg';
+import logo_img from './img/logo.png';
 import {NavLink} from 'react-router-dom';
 import './index.css';
 
@@ -14,7 +14,7 @@ export default function FixedContainer() {
         <div className="fixed-top px-md-5 bg-light"> 
           <nav className="navbar navbar-expand-lg py-3 px-md-3 px-lg-6 mx-md-3 mx-lg-5 navbar-light bg-light">
               <div className="container-fluid px-5">
-                <NavLink exact className="navbar-brand" to="/IdeaDeployer"><img className="img-fluid" src={logo_img} /></NavLink>
+                <NavLink exact style={{maxWidth:'200px',maxHeight:'70px'}} className="navbar-brand" to="/IdeaDeployer"><img className="img-fluid" src={logo_img} /></NavLink>
                   <a href="#"></a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>

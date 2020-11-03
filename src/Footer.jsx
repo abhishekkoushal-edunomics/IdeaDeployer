@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import logo_img from './img/logo.jpg'
+import logo_img from './img/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGooglePlusG,faTwitter,faFacebookF,faInstagram,faLinkedinIn,faSpotify } from '@fortawesome/free-brands-svg-icons'
 import { faAdjust } from '@fortawesome/fontawesome-svg-core'
@@ -45,26 +45,24 @@ function SocialMediaBar(){
 export default function Section() {
   return (
     <>
-    <Container style={{backgroundColor:'rgb(218, 218, 224)',overflowX:'hidden'}} fixed >
-        <Container maxWidth ="md" fixed >
-        <div className="py-5 mx-0">
-            <div className="text-center row py-5 mx-0 px-0">
-                <div className="col-md-3 col-12 text-left">
-                    <h5 className="font-weight-bold mb-3">Our Address</h5>
-                    <p className="small"></p>
+        <div style={{backgroundColor:'rgb(218, 218, 224)',overflowX:'hidden'}} className="px-lg-5">
+            <div className="py-md-5 py-4 px-lg-5 mx-lg-5">
+                <div className="text-center row py-5 mx-0 px-lg-4">
+                    <div className="col-md-3 col-12 text-left">
+                        <h5 className="font-weight-bold mb-3">Our Address</h5>
+                        <p className="small"></p>
+                    </div>
+                    <div className="col-md-6 col-12">
+                        <img src={logo_img} style={{maxHeight:"75px",maxWidth:"250px"}} className="img-fluid mb-3" />
+                        <p className="small">The only platform you need to deploy a culture of open innovation</p>
+                    </div>
+                    <div className="col-md-3 col-12 text-left text-md-right">
+                        <h5 className="font-weight-bold  mb-3">Contact</h5>
+                        <p className="small">ideadeployer.com</p>
+                    </div>
                 </div>
-                <div className="col-md-6 col-12">
-                    <img src={logo_img} className="img-fluid mb-3" />
-                    <p className="small">The only platform you need to deploy a culture of open innovation</p>
-                </div>
-                <div className="col-md-3 col-12 text-left text-md-right">
-                    <h5 className="font-weight-bold  mb-3">Contact</h5>
-                    <p className="small">ideadeployer.com</p>
-                </div>
-            </div>
-        </div>    
-        </Container>
-    </Container>
+            </div>  
+        </div>  
     <SocialMediaBar></SocialMediaBar>
     </>
   );
