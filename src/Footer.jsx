@@ -7,14 +7,14 @@ import { faAdjust } from '@fortawesome/fontawesome-svg-core'
 function SocialMediaBar(){
     return(
         <>
-            <div style={{backgroundColor:'rgb(218, 218, 224)'}} className="row px-0 mx-0">
-                <div className="col-md-auto p-2 my-3 my-md-0 mx-auto">
+            <div style={{backgroundColor:'rgb(218, 218, 224)'}} className="row px-0 mx-0 text-center">
+                <div className="col-md-7 p-2 my-3 my-md-0 mx-auto">
                     <span className="ml-auto">Terms of Use</span>
                     <span className="mx-3">Privacy Policy</span>
                     <span className="mr-auto">Cookie Policy</span>
                 </div>
-                <div className="col-md-4 row h3 text-center">
-                    <div className="col-6  row">
+                <div className="col-md-4 col-12 row h3 text-center mr-auto">
+                    <div className="col-6 row px-0 mx-auto">
                         <a class="rounded-circle col-3 p-2 mx-auto border border-dark" href="#" >
                             <FontAwesomeIcon icon ={faTwitter} ></FontAwesomeIcon>
                         </a>
@@ -25,7 +25,7 @@ function SocialMediaBar(){
                             <FontAwesomeIcon icon ={faFacebookF} ></FontAwesomeIcon>
                         </a>
                     </div>
-                    <div className="col-6 row">
+                    <div className="col-6 row px-0">
                         <a class="rounded-circle col-3 p-2 mx-auto border border-dark" href="#" >
                             <FontAwesomeIcon icon ={faInstagram} ></FontAwesomeIcon>
                         </a>
@@ -42,7 +42,7 @@ function SocialMediaBar(){
     );
 }
 
-export default function Section() {
+export default function Footer() {
   return (
     <>
         <div style={{backgroundColor:'rgb(218, 218, 224)',overflowX:'hidden'}} className="px-lg-5">
