@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/IdeaDeployer/static/css/main.11da5858.chunk.css",
-    "main.js": "/IdeaDeployer/static/js/main.c0ee057c.chunk.js",
-    "main.js.map": "/IdeaDeployer/static/js/main.c0ee057c.chunk.js.map",
+    "main.css": "/IdeaDeployer/static/css/main.d1a703c1.chunk.css",
+    "main.js": "/IdeaDeployer/static/js/main.0d289bd1.chunk.js",
+    "main.js.map": "/IdeaDeployer/static/js/main.0d289bd1.chunk.js.map",
     "runtime-main.js": "/IdeaDeployer/static/js/runtime-main.05ccdec9.js",
     "runtime-main.js.map": "/IdeaDeployer/static/js/runtime-main.05ccdec9.js.map",
     "static/js/2.11b401d1.chunk.js": "/IdeaDeployer/static/js/2.11b401d1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0a15202b.chunk.js": "/IdeaDeployer/static/js/3.0a15202b.chunk.js",
     "static/js/3.0a15202b.chunk.js.map": "/IdeaDeployer/static/js/3.0a15202b.chunk.js.map",
     "index.html": "/IdeaDeployer/index.html",
-    "static/css/main.11da5858.chunk.css.map": "/IdeaDeployer/static/css/main.11da5858.chunk.css.map",
+    "static/css/main.d1a703c1.chunk.css.map": "/IdeaDeployer/static/css/main.d1a703c1.chunk.css.map",
     "static/js/2.11b401d1.chunk.js.LICENSE.txt": "/IdeaDeployer/static/js/2.11b401d1.chunk.js.LICENSE.txt",
     "static/media/Arrow.a0534453.png": "/IdeaDeployer/static/media/Arrow.a0534453.png",
     "static/media/Features-artwork-1.83034c5a.svg": "/IdeaDeployer/static/media/Features-artwork-1.83034c5a.svg",
@@ -34,7 +34,7 @@
     "static/media/Home-section-icon-3.53ab94ee.jpg": "/IdeaDeployer/static/media/Home-section-icon-3.53ab94ee.jpg",
     "static/media/Homepage-additional-features.139a1995.svg": "/IdeaDeployer/static/media/Homepage-additional-features.139a1995.svg",
     "static/media/Homepage-slider-image.740ae707.png": "/IdeaDeployer/static/media/Homepage-slider-image.740ae707.png",
-    "static/media/Price-slider-image.fbd8f092.jpeg": "/IdeaDeployer/static/media/Price-slider-image.fbd8f092.jpeg",
+    "static/media/Price-slider-image.1d877201.png": "/IdeaDeployer/static/media/Price-slider-image.1d877201.png",
     "static/media/Price-table-col-1.1152b5e4.svg": "/IdeaDeployer/static/media/Price-table-col-1.1152b5e4.svg",
     "static/media/Price-table-col-2.e35adc7a.svg": "/IdeaDeployer/static/media/Price-table-col-2.e35adc7a.svg",
     "static/media/Price-table-col-3.0132ed2d.svg": "/IdeaDeployer/static/media/Price-table-col-3.0132ed2d.svg",
@@ -45,13 +45,14 @@
     "static/media/cell-2.a8eae63d.svg": "/IdeaDeployer/static/media/cell-2.a8eae63d.svg",
     "static/media/cell-3.f07b37d8.svg": "/IdeaDeployer/static/media/cell-3.f07b37d8.svg",
     "static/media/cell-4.c5087e2b.svg": "/IdeaDeployer/static/media/cell-4.c5087e2b.svg",
+    "static/media/logo.0770234a.png": "/IdeaDeployer/static/media/logo.0770234a.png",
     "static/media/logo.103b5fa1.svg": "/IdeaDeployer/static/media/logo.103b5fa1.svg",
     "static/media/th-1.1a578357.svg": "/IdeaDeployer/static/media/th-1.1a578357.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.05ccdec9.js",
     "static/js/2.11b401d1.chunk.js",
-    "static/css/main.11da5858.chunk.css",
-    "static/js/main.c0ee057c.chunk.js"
+    "static/css/main.d1a703c1.chunk.css",
+    "static/js/main.0d289bd1.chunk.js"
   ]
 }
