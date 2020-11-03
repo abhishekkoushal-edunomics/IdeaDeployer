@@ -46,17 +46,17 @@ export default function Section() {
   return (
     <>
         <div style={{backgroundColor:'rgb(218, 218, 224)',overflowX:'hidden'}} className="px-lg-5">
-            <div className="py-md-5 py-4 px-lg-5 mx-lg-5">
+            <div className="py-md-5 pt-4 px-lg-5 mx-lg-5">
                 <div className="text-center row py-5 mx-0 px-lg-4">
-                    <div className="col-md-3 col-12 text-left">
+                    <div className="col-md-3 col-12 text-md-left">
                         <h5 className="font-weight-bold mb-3">Our Address</h5>
                         <p className="small"></p>
                     </div>
-                    <div className="col-md-6 col-12">
+                    <div className="col-md-6 col-12 ">
                         <img src={logo_img} style={{maxHeight:"75px",maxWidth:"250px"}} className="img-fluid mb-3" />
                         <p className="small">The only platform you need to deploy a culture of open innovation</p>
                     </div>
-                    <div className="col-md-3 col-12 text-left text-md-right">
+                    <div className="col-md-3 col-12 text-md-right">
                         <h5 className="font-weight-bold  mb-3">Contact</h5>
                         <p className="small">ideadeployer.com</p>
                     </div>

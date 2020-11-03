@@ -22,13 +22,13 @@ export default function FixedContainer() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav font-weight-bold ml-lg-auto">
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer/features"><span className="text-uppercase text-dark nav-link">Features</span></NavLink>
+                      <NavLink exact activeClassName="active_class" style={{textDecoration:"none"}} to="/IdeaDeployer/features"><span className="text-uppercase text-dark nav-link">Features</span></NavLink>
                       </li>
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer/price"><span className="text-uppercase text-dark nav-link">Pricing</span></NavLink>
+                      <NavLink exact activeClassName="active_class" style={{textDecoration:"none"}}  to="/IdeaDeployer/price"><span className="text-uppercase text-dark nav-link">Pricing</span></NavLink>
                       </li>
                       <li className="nav-item mx-3">
-                      <NavLink exact activeClassName="active_class" to="/IdeaDeployer/dfjns"><span className="text-uppercase text-dark nav-link">login</span></NavLink>
+                      <NavLink exact activeClassName="active_class"  style={{textDecoration:"none"}}  to="/IdeaDeployer/dfjns"><span className="text-uppercase text-dark nav-link">login</span></NavLink>
                       </li>
                       <li className="nav-item mx-3">
                       <Button style={{color:"white",backgroundColor:'rgb(255, 125, 175)'}} className="nav-link text-uppercase font-weight-bold px-4" variant="contained" size="large" color="#800000">TRY FOR FREE</Button>
