@@ -5,7 +5,6 @@ import logo_img from './img/logo.png';
 import {NavLink} from 'react-router-dom';
 import './index.css';
 
-
 export default function FixedContainer() {
   return (
     <>
@@ -31,7 +30,7 @@ export default function FixedContainer() {
                       <NavLink exact activeClassName="active_class"  style={{textDecoration:"none"}}  to="/IdeaDeployer/dfjns"><span className="text-uppercase text-dark nav-link">login</span></NavLink>
                       </li>
                       <li className="nav-item mx-3">
-                      <Button style={{color:"white",backgroundColor:'rgb(255, 125, 175)'}} className="nav-link text-uppercase font-weight-bold px-4" variant="contained" size="large" color="#800000">TRY FOR FREE</Button>
+                      <Button style={{color:"white",backgroundColor:'rgb(255, 125, 175)'}} className="nav-link text-decoration-none text-uppercase font-weight-bold px-4" variant="contained" size="large" color="#800000">TRY FOR FREE</Button>
                       </li>
                   </ul>
                   </div>

@@ -1,5 +1,0 @@
-git status
-git add .
-    git commit -m "Commit Whole Final Website "
-npm run deploy
-git push -u origin master
